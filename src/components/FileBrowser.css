@@ -1,0 +1,25 @@
+
+.grid{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.folder{
+    background-color: gold;
+    color:white;
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.5rem;
+}
+
+.file {
+    background-color: lightgray;
+    color: #282c34;
+    flex-flow: column;
+    border-width: 1px;
+    padding: 0.5rem;
+}
